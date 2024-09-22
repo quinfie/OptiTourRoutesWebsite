@@ -1,0 +1,6 @@
+@OptiTourRoutesWebsite_HostAddress = http://localhost:5129
+
+GET {{OptiTourRoutesWebsite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

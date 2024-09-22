@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ED0B85-DA39-4B60-A47C-CFEFF9802BD9}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5ED0B85-DA39-4B60-A47C-CFEFF9802BD9}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\optitourrouteswebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F6835C2-9EBF-4105-B406-02EBE69B91A1}|OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite.infrastructure\\optitourrouteswebsite.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F6835C2-9EBF-4105-B406-02EBE69B91A1}|OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj|solutionrelative:optitourrouteswebsite.infrastructure\\optitourrouteswebsite.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 284,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OptiTourRoutesWebsite.Infrastructure",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj",
+              "RelativeToolTip": "OptiTourRoutesWebsite.Infrastructure\\OptiTourRoutesWebsite.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T19:00:30.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OptiTourRoutesWebsite",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T18:40:17.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 116,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
