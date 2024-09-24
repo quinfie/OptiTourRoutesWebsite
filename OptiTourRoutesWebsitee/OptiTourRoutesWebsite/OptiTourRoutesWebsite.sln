@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptiTourRoutesWebsite", "OptiTourRoutesWebsite\OptiTourRoutesWebsite.csproj", "{3CD19B12-2070-4FA2-9F8A-BB96E15435FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. INTERFACE ADAPTERS", "1. INTERFACE ADAPTERS", "{D624C911-DE4E-4E1A-A37C-368AA8E6EDD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. INFRASTRUCTURE", "2. INFRASTRUCTURE", "{5A2D3A47-0CA4-44DA-988A-7F60C5434A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. SERVICES", "3. SERVICES", "{0233D1F2-AA5D-47C1-BDE3-CE0B6B19F4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. CORE", "4. CORE", "{FF94B096-722E-467A-818F-1CC8F9703699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiTourRoutesWebsite.Infrastructure", "OptiTourRoutesWebsite.Infrastructure\OptiTourRoutesWebsite.Infrastructure.csproj", "{20386713-B638-4D75-BB6B-023A713263F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiTourRoutesWebsite.Contract.UseCases", "OptiTourRoutesWebsite.Contract.UseCases\OptiTourRoutesWebsite.Contract.UseCases.csproj", "{7CC0D002-4F2E-4639-90EA-6BB1C274474F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiTourRoutesWebsite.Services", "OptiTourRoutesWebsite.Services\OptiTourRoutesWebsite.Services.csproj", "{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiTourRoutesWebsite.Contract.Core", "OptiTourRoutesWebsite.Contract.Core\OptiTourRoutesWebsite.Contract.Core.csproj", "{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiTourRoutesWebsite.Core", "OptiTourRoutesWebsite.Core\OptiTourRoutesWebsite.Core.csproj", "{866B511F-61F8-4239-A2BF-7551AD171A8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD19B12-2070-4FA2-9F8A-BB96E15435FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD19B12-2070-4FA2-9F8A-BB96E15435FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD19B12-2070-4FA2-9F8A-BB96E15435FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD19B12-2070-4FA2-9F8A-BB96E15435FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20386713-B638-4D75-BB6B-023A713263F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20386713-B638-4D75-BB6B-023A713263F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20386713-B638-4D75-BB6B-023A713263F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20386713-B638-4D75-BB6B-023A713263F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC0D002-4F2E-4639-90EA-6BB1C274474F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC0D002-4F2E-4639-90EA-6BB1C274474F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC0D002-4F2E-4639-90EA-6BB1C274474F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC0D002-4F2E-4639-90EA-6BB1C274474F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866B511F-61F8-4239-A2BF-7551AD171A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866B511F-61F8-4239-A2BF-7551AD171A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866B511F-61F8-4239-A2BF-7551AD171A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866B511F-61F8-4239-A2BF-7551AD171A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CD19B12-2070-4FA2-9F8A-BB96E15435FB} = {D624C911-DE4E-4E1A-A37C-368AA8E6EDD2}
+		{20386713-B638-4D75-BB6B-023A713263F7} = {5A2D3A47-0CA4-44DA-988A-7F60C5434A6C}
+		{7CC0D002-4F2E-4639-90EA-6BB1C274474F} = {0233D1F2-AA5D-47C1-BDE3-CE0B6B19F4D9}
+		{960C5A6C-EBD3-4FBB-AE1E-193551F8FA14} = {0233D1F2-AA5D-47C1-BDE3-CE0B6B19F4D9}
+		{D8AB7CA4-14CE-4A41-BDED-7C80BF952A05} = {FF94B096-722E-467A-818F-1CC8F9703699}
+		{866B511F-61F8-4239-A2BF-7551AD171A8E} = {FF94B096-722E-467A-818F-1CC8F9703699}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10FBE42E-60A6-454E-810D-DB8595432F83}
+	EndGlobalSection
+EndGlobal
