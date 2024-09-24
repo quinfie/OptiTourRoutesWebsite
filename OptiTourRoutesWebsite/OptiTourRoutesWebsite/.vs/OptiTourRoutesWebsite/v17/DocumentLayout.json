@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\db\\tourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\db\\tourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\models\\touristspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\models\\touristspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\controllers\\touristspotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\controllers\\touristspotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\services\\touristspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\services\\touristspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|e:\\\u0111\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\optitourrouteswebsite\\optitourrouteswebsite\\optitourrouteswebsite\\services\\itouristspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3420E4-9F65-4877-932D-6F39B3594CEE}|OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj|solutionrelative:optitourrouteswebsite\\services\\itouristspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 299,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\appsettings.json",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\appsettings.json",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\appsettings.json",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T18:00:03.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TourDbContext.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\DB\\TourDbContext.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\DB\\TourDbContext.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\DB\\TourDbContext.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\DB\\TourDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:54:42.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TouristSpot.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Models\\TouristSpot.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Models\\TouristSpot.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Models\\TouristSpot.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Models\\TouristSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:27:11.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TouristSpotService.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Services\\TouristSpotService.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Services\\TouristSpotService.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Services\\TouristSpotService.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Services\\TouristSpotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:26:19.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITouristSpotService.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Services\\ITouristSpotService.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Services\\ITouristSpotService.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Services\\ITouristSpotService.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Services\\ITouristSpotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:24:25.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TouristSpotsController.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Controllers\\TouristSpotsController.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Controllers\\TouristSpotsController.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Controllers\\TouristSpotsController.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Controllers\\TouristSpotsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:21:59.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T17:07:58.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:02:16.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T17:00:22.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OptiTourRoutesWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\\u0110\u00F4\u0300 a\u0301n chuy\u00EAn nga\u0300nh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OptiTourRoutesWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:58:53.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
