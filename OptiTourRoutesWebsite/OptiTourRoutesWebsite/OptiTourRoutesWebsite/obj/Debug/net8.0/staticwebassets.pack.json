@@ -13,6 +13,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\bao-tang-chung-tich-chien-tranh.jpg",
+      "PackagePath": "staticwebassets\\images\\bao-tang-chung-tich-chien-tranh.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\bao-tang-lich-su.jpg",
+      "PackagePath": "staticwebassets\\images\\bao-tang-lich-su.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\ben-nha-rong.jpg",
+      "PackagePath": "staticwebassets\\images\\ben-nha-rong.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\cho-ben-thanh.jpg",
+      "PackagePath": "staticwebassets\\images\\cho-ben-thanh.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\chua-xa-loi.jpg",
+      "PackagePath": "staticwebassets\\images\\chua-xa-loi.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\chua_giac_lam.jpg",
+      "PackagePath": "staticwebassets\\images\\chua_giac_lam.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\dia-dao-cu-chi.jpg",
+      "PackagePath": "staticwebassets\\images\\dia-dao-cu-chi.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\dinh-doc-lap.jpg",
+      "PackagePath": "staticwebassets\\images\\dinh-doc-lap.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\nha-hat-lon.jpg",
+      "PackagePath": "staticwebassets\\images\\nha-hat-lon.jpg"
+    },
+    {
+      "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\images\\nha-tho-duc-ba.jpg",
+      "PackagePath": "staticwebassets\\images\\nha-tho-duc-ba.jpg"
+    },
+    {
       "Id": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

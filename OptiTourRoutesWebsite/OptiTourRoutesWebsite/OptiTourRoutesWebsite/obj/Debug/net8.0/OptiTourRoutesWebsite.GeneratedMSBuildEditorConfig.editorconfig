@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Đồ án chuyên ngành\OptiTourRoutesWebsite\OptiTourRoutesWebsite\OptiTourRoutesWebsite
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/AboutUS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/Destinations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXN0aW5hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Home/Route.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSb3V0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Đồ án chuyên ngành/OptiTourRoutesWebsite/OptiTourRoutesWebsite/OptiTourRoutesWebsite/Views/Shared/Error.cshtml]

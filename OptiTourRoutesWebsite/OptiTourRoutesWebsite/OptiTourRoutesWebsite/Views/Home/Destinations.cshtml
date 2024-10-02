@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "OptiTour Map";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OptiTour Routes</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .tourist-places {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .place-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .place-card:hover {
+            transform: scale(1.05);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .place-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .place-info h3 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Danh sách địa điểm tham quan</h2>
+    <div class="tourist-places">
+        <div class="place-card">
+            <img src="~/images/dinh-doc-lap.jpg" />
+            <div class="place-info">
+                <h3>Dinh Độc Lập</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/ben-nha-rong.jpg" />
+            <div class="place-info">
+                <h3>Bến Nhà Rồng</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/nha-tho-duc-ba.jpg" />
+            <div class="place-info">
+                <h3>Nhà thờ Đức Bà</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/cho-ben-thanh.jpg" />
+            <div class="place-info">
+                <h3>Chợ Bến Thành</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/dia-dao-cu-chi.jpg" />
+            <div class="place-info">
+                <h3>Địa đạo Củ Chi</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/bao-tang-chung-tich-chien-tranh.jpg" />
+            <div class="place-info">
+                <h3>Bảo tàng Chứng tích chiến tranh</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/chua_giac_lam.jpg" />
+            <div class="place-info">
+                <h3>Chùa Giác Lâm</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/bao-tang-lich-su.jpg" />
+            <div class="place-info">
+                <h3>Bảo tàng lịch sử Việt Nam</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/nha-hat-lon.jpg" />
+            <div class="place-info">
+                <h3>Nhà hát lớn TP.HCM</h3>
+            </div>
+        </div>
+        <div class="place-card">
+            <img src="~/images/chua-xa-loi.jpg" />
+            <div class="place-info">
+                <h3>Chùa Xá Lợi</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

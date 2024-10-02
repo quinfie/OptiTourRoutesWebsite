@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "OptiTour Map";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OptiTour Routes</title>
+</head>
+
+<body>
+
+</body>
+
+<script src="~/../lib/leaflet/leaflet.min.js"></script>
+<script src="~/../lib/leaflet/leaflet.js"></script>
+<div id="map" style="height: 500px; width: 100%;"></div>
+<script>
+    // Khởi tạo bản đồ
+    var map = L.map('map').setView([10.8231, 106.6297], 13); // Tọa độ của TP.HCM
+
+    // Thêm lớp tile (nền bản đồ)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Sử dụng Geolocation API để lấy vị trí người dùng
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var userLat = position.coords.latitude;
+            var userLng = position.coords.longitude;
+
+            // Hiển thị vị trí người dùng trên bản đồ
+            L.marker([userLat, userLng]).addTo(map)
+                .bindPopup("Vị trí hiện tại của bạn").openPopup();
+
+            // Gửi tọa độ về backend (API ASP.NET Core)
+            fetch('/api/route', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    latitude: userLat,
+                    longitude: userLng
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Xử lý phản hồi từ backend (ví dụ: hiển thị lộ trình)
+                    console.log('Dữ liệu từ backend:', data);
+                })
+                .catch(error => console.error('Lỗi:', error));
+        });
+    } else {
+        alert("Trình duyệt của bạn không hỗ trợ Geolocation.");
+    }
+
+    // Ví dụ về các điểm du lịch (POI)
+    var touristSpots = [
+        { "name": "Bến Nhà Rồng", "lat": 10.76551, "lng": 106.70288 },
+        { "name": "Chợ Bến Thành", "lat": 10.77221, "lng": 106.69827 },
+        { "name": "Dinh Độc Lập", "lat": 10.77689, "lng": 106.69534 }
+    ];
+
+    // Thêm các đánh dấu cho các điểm du lịch
+    touristSpots.forEach(function (spot) {
+        L.marker([spot.lat, spot.lng])
+            .addTo(map)
+            .bindPopup(spot.name)
+            .openPopup();
+    });
+</script>
+</html>

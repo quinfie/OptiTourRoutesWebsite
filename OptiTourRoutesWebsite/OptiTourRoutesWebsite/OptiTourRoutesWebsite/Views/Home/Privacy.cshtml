@@ -7,38 +7,92 @@
 <html>
 <head>
     <title>OptiTour Routes</title>
+    <link rel="stylesheet" href="~/../lib/leaflet/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Tìm đường đi ngắn nhất</h2>
-</body>
+    <h2>Chọn các địa điểm tham quan</h2>
 
-<script src="~/../lib/leaflet/leaflet.min.js"></script>
-<script src="~/../lib/leaflet/leaflet.js"></script>
-    <div id="map" style="height: 500px; width: 100%;"></div>
+    <div>
+        <label><input type="checkbox" class="place" data-lat="10.7769" data-lng="106.6951" /> Dinh Độc Lập</label><br />
+        <label><input type="checkbox" class="place" data-lat="10.762622" data-lng="106.660172" /> Bến Nhà Rồng</label><br />
+        <label><input type="checkbox" class="place" data-lat="10.7769" data-lng="106.6951" /> Nhà thờ Đức Bà</label><br />
+        <label><input type="checkbox" class="place" data-lat="10.7769" data-lng="106.6951" /> Chợ Bến Thành</label><br />
+        <!-- Thêm các địa điểm khác ở đây -->
+    </div>
+
+    <button id="showRoutes">Hiển thị bản đồ</button>
+
+    <div id="map"></div>
+
+    <script src="~/../lib/leaflet/leaflet.js"></script>
     <script>
-        // Khởi tạo bản đồ
-        var map = L.map('map').setView([10.8231, 106.6297], 13); // Tọa độ của TP.HCM
+        document.getElementById('showRoutes').onclick = function () {
+            var map = L.map('map').setView([10.7769, 106.6951], 13); // Vị trí mặc định
 
-        // Thêm lớp tile (nền bản đồ)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 18,
-            attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
-        }).addTo(map);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
 
-        // Ví dụ về các điểm du lịch (POI)
-        var touristSpots = [
-            { "name": "Bến Nhà Rồng", "lat": 10.76551, "lng": 106.70288 },
-            { "name": "Chợ Bến Thành", "lat": 10.77221, "lng": 106.69827 },
-            { "name": "Dinh Độc Lập", "lat": 10.77689, "lng": 106.69534 }
-        ];
+            // Sử dụng Geolocation API để lấy vị trí người dùng
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    var userLat = position.coords.latitude;
+                    var userLng = position.coords.longitude;
 
-        // Thêm các đánh dấu cho các điểm du lịch
-        touristSpots.forEach(function (spot) {
-            L.marker([spot.lat, spot.lng])
-                .addTo(map)
-                .bindPopup(spot.name)
-                .openPopup();
-        });
+                    // Hiển thị vị trí người dùng trên bản đồ
+                    L.marker([userLat, userLng]).addTo(map)
+                        .bindPopup("Vị trí hiện tại của bạn").openPopup();
+
+                    // Lưu trữ các điểm đã chọn
+                    var selectedPlaces = [];
+                    var bounds = L.latLngBounds();
+
+                    document.querySelectorAll('.place:checked').forEach(function (checkbox) {
+                        var lat = checkbox.getAttribute('data-lat');
+                        var lng = checkbox.getAttribute('data-lng');
+                        var marker = L.marker([lat, lng]).addTo(map);
+                        bounds.extend([lat, lng]);
+                        selectedPlaces.push({ lat: lat, lng: lng });
+                    });
+
+                    if (selectedPlaces.length > 0) {
+                        map.fitBounds(bounds);
+
+                        // Gửi tọa độ về backend (API ASP.NET Core)
+                        fetch('/api/route', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                userLocation: { latitude: userLat, longitude: userLng },
+                                selectedPlaces: selectedPlaces
+                            })
+                        })
+                            .then(response => response.json())
+                            .then(data => {
+                                // Xử lý phản hồi từ backend để vẽ đường đi
+                                if (data.routeCoordinates) {
+                                    var routeLine = L.polyline(data.routeCoordinates, { color: 'blue' }).addTo(map);
+                                }
+                            })
+                            .catch(error => console.error('Lỗi:', error));
+                    } else {
+                        alert('Hãy chọn ít nhất một địa điểm.');
+                    }
+                });
+            } else {
+                alert("Trình duyệt của bạn không hỗ trợ Geolocation.");
+            }
+        };
     </script>
+</body>
 </html>

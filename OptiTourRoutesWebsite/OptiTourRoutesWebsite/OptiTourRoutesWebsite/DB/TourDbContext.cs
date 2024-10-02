@@ -5,6 +5,8 @@ namespace OptiTourRoutesWebsite.DB
 {
     public class TourDbContext : DbContext
     {
+        internal object TouristRoutes;
+
         public TourDbContext(DbContextOptions<TourDbContext> options) : base(options)
         { 
         

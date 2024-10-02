@@ -10,7 +10,24 @@
     
 </head>
 <body>
-    
+    @* Form để người dùng nhập điểm xuất phát và điểm đến *@
+    <form id="route-form">
+        <div>
+            <label for="start">Điểm xuất phát:</label>
+            <input type="text" id="start" name="start" placeholder="Nhập địa chỉ điểm xuất phát" required>
+        </div>
+        <div>
+            <label for="end">Điểm đến:</label>
+            <input type="text" id="end" name="end" placeholder="Nhập địa chỉ điểm đến" required>
+        </div>
+        <button type="submit">Tìm đường</button>
+    </form>
+
+    @* Hiển thị khoảng cách và thời gian dự tính *@
+    <div id="route-info">
+        <p>Khoảng cách: <span id="distance"></span></p>
+        <p>Thời gian: <span id="duration"></span></p>
+    </div>
 </body>
 
 
@@ -27,5 +44,30 @@
         attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
     }).addTo(map);
 </script>
+
+
+<script>
+    // Kiểm tra nếu trình duyệt hỗ trợ Geolocation
+    if (navigator.geolocation) {
+        // Lấy vị trí hiện tại của người dùng
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var userLat = position.coords.latitude;
+            var userLng = position.coords.longitude;
+
+            // In ra vị trí hiện tại của người dùng
+            console.log("Vị trí hiện tại của bạn: ", userLat, userLng);
+
+            // Hiển thị marker trên bản đồ cho vị trí hiện tại của người dùng
+            var userMarker = L.marker([userLat, userLng]).addTo(map)
+                .bindPopup("Vị trí của bạn").openPopup();
+
+            // Ở đây bạn có thể thực hiện logic tìm đường đi ngắn nhất
+            // Gọi API để tính toán đường đi hoặc hiển thị lên bản đồ.
+        });
+    } else {
+        alert("Trình duyệt của bạn không hỗ trợ Geolocation.");
+    }
+</script>
+
 </html>
 

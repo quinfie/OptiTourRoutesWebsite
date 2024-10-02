@@ -5,6 +5,10 @@
     {
       "library": "leaflet@1.9.4",
       "destination": "wwwroot/lib/leaflet/"
+    },
+    {
+      "library": "jQuery-Geolocation@1.0.50",
+      "destination": "wwwroot/jQuery-Geolocation/"
     }
   ]
 }
