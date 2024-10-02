@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OptiTourRoutesWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c2f6b11da020a6f8e4db8bb369b2e49c1153df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04b97e75ceafcc28dc6e5298c8f3132e2b852c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("OptiTourRoutesWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OptiTourRoutesWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

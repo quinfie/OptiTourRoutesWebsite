@@ -7,7 +7,7 @@
 <html>
 <head>
     <title>OptiTour Routes</title>
-    
+
 </head>
 <body>
     @* Form để người dùng nhập điểm xuất phát và điểm đến *@
@@ -34,6 +34,7 @@
 <script src="~/../lib/leaflet/leaflet.min.js"></script>
 <script src="~/../lib/leaflet/leaflet.js"></script>
 <div id="map" style="height: 500px; width: 100%;"></div>
+
 <script>
     // Khởi tạo bản đồ
     var map = L.map('map').setView([10.8231, 106.6297], 13); // Tọa độ của TP.HCM
@@ -43,6 +44,16 @@
         maxZoom: 18,
         attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    var jsModel = @Html.Raw(Json.Serialize(Model));
+    console.log(jsModel)
+
+    for (i in jsModel) {
+        item = jsModel[i]
+        L.marker([item.latitude, item.longitude]).addTo(map)
+            .bindPopup(item.name + '<br>' + item.address)
+            .openPopup();
+    }
 </script>
 
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj": {}
+    "E:\\Do_An_Chuyen_Nganh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj": {}
   },
   "projects": {
-    "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj": {
+    "E:\\Do_An_Chuyen_Nganh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+        "projectUniqueName": "E:\\Do_An_Chuyen_Nganh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
         "projectName": "OptiTourRoutesWebsite",
-        "projectPath": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "E:\\Đồ án chuyên ngành\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\obj\\",
+        "projectPath": "E:\\Do_An_Chuyen_Nganh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite.csproj",
+        "packagesPath": "C:\\Users\\Thanh Nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\Do_An_Chuyen_Nganh\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\OptiTourRoutesWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thanh Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
